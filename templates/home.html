@@ -7,7 +7,22 @@
 <body>
     <h1>Weather Data API </h1>
     <p>URL format: http://127.0.0.1:5000/api/v1/station/date(yyyy-mm-dd) </p>
-    <p1>URL example: http://127.0.0.1:5000/api/v1/10/2000-11-05 </p1>
+    <p1>URL example for a specific date and station: http://127.0.0.1:5000/api/v1/10/2000-11-05 </p1>
+    <br>
+    <br>
+
+    <p2>URL format for a specific station for all dates: http://127.0.0.1:5000/api/v1/station</p2>
+    <br>
+    <p3>URL example for a specific station for all dates: http://127.0.0.1:5000/api/v1/10</p3>
+    <br>
+    <br>
+    <p4>URL format for a specific station for all the days in a year: http://127.0.0.1:5000/api/v1/yearly/station/year</p4>
+    <br>
+    <p5>URL example for a specific station for all the days in a year : http://127.0.0.1:5000/api/v1/yearly/3/2001</p5>
+    <br>
+    <br>
+    <h2>List of radio station name's and its respective number</h2>
+
     <p>{{data|safe}}</p>
 </body>
 </html>
